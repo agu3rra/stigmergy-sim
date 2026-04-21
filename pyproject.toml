@@ -1,0 +1,9 @@
+[project]
+name = "stigmergy-sim"
+version = "0.1.0"
+description = "A simulation on stigmergy using Blender"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bpy>=5.0.1",
+]
