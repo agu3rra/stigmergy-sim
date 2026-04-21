@@ -1,6 +1,13 @@
 # Stigmergy Simulation
 The goal of this repository is to create a simulation of stigmergy, a mechanism by which simple agents interact with their environment to produce complex behaviors. The python code runs inside of [Blender](https://www.blender.org/) allowing us to see the emergent behaviors of the agents as they interact with their environment.
 
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Repository structure](#repository-structure)
+- [Running the simulation](#running-the-simulation)
+- [Stigmergy Explained](#stigmergy-explained)
+
 ## Requirements
 - Python: https://www.python.org
 - Blender: https://www.blender.org/download/
@@ -48,3 +55,7 @@ scenario.run()
 Open our `simulation.blend` file in Blender, then click the play button from the `scripts` menu.
 
 ![running-sim-example](./img/running-sim-example.png)
+
+## Stigmergy Explained
+
+![!stigmergy-explained](./img/stigmergy-infographic-by-chatgpt.png)

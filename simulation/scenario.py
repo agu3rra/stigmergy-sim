@@ -14,7 +14,7 @@ class Scenario:
                 bpy.data.objects.remove(obj, do_unlink=True)
         self.agents = []
 
-    def spawn_agents(self, n=10, spread=5.0):
+    def spawn_agents(self, n=100, spread=5.0):
         self.cleanup()
         for i in range(n):
             x = random.uniform(-spread, spread)
